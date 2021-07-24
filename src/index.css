@@ -1,0 +1,122 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 0;
+}
+
+.board-row {
+  display: flex;
+}
+
+/* .status {
+  margin-bottom: 10px;
+} */
+
+.square {
+  background: cornflowerblue;
+  border: 1px solid black;
+  outline: none;
+  /* float: left; */
+
+  font-size: 36px;
+  font-weight: bold;
+  /* line-height: 34px; */
+  height: 75px;
+  text-align: center;
+  width: 75px;
+}
+
+.square:focus {
+  /* outline: none; */
+  background: orange;
+  color: cornflowerblue;
+}
+
+/* .kbd-navigation .square:focus {
+  background: #ddd;
+} */
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.button {
+  outline: none;
+  border: 2px solid black;
+  border-radius: 3px;
+  background: transparent;
+  padding: .5vh .5vw .5vh 0.5vw;
+  margin: .2vh 0;
+  width: 20vw;
+  text-align: left;
+}
+
+.button:focus {
+  background: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 7px;
+}
+
+.list {
+  list-style-type: none;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin: .5vh 0;
+  width: 20vw;
+}
+
+.history {
+  /* height: 15vh; */
+  background: transparent;
+  border: none;
+  width: 21vw;
+  text-align: left;
+  border-radius: 3px;
+}
+
+.history:focus {
+  background: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 7px;
+}
+
+#winner {
+  background-color: orange;
+  color: white;
+  border: 2px solid white;
+}
+
+.winner {
+  background-color: orange;
+  color: white;
+  width: 20vw;
+  border-radius: 3px;
+  padding: 3vh 3vw;
+  font-size: 2.5vw;
+  margin: .5vh 0;
+
+}
+
+.scratch {
+  background-color: orange;
+  color: white;
+  width: 20vw;
+  border-radius: 3px;
+  padding: 3vh 3vw;
+  font-size: 3vw;
+  margin: .5vh 0;
+}
